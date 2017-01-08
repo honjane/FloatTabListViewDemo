@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#33ff0000"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+    <com.honjane.coordinatordemo.LineTextView
+        xmlns:more="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ltv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        more:textColor="@android:color/black"
+        more:textSize="14dip"
+        more:line="3"
+        more:text="@string/text"/>
+</RelativeLayout>
